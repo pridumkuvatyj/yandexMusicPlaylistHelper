@@ -1,2 +1,2 @@
-# YouTrack Helper
-A Google Chrome extension to simplify adding tracks to playlists on Yandex Music
+# Yandex Music Playlist Helper
+A Google Chrome extension to simplify adding tracks to playlists on Yandex Music. It displays a fullscreen playlist chooser with fuzzy search when you add a track to playlist.
