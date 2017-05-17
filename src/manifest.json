@@ -1,0 +1,24 @@
+{
+    "name": "Yandex Music Playlist Helper",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["*://music.yandex.ru/*", "*://music.yandex.ua/*"],
+            "css": ["style.css"],
+            "js": ["jquery.min.js", "fuzzy-min.js", "main.js"]
+        }
+    ],
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "default_title": "Yandex Music Playlist Helper",
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
