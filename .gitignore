@@ -1,2 +1,4 @@
 *.crx
 *.pem
+*.sublime-project
+*.sublime-workspace
